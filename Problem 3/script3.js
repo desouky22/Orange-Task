@@ -13,6 +13,5 @@ fs.readFile("./response3.json", "utf8", (err, data) => {
     // Parse the JSON data
     const jsonObject = JSON.parse(data);
 
-    // Now 'jsonObject' contains the parsed JSON data
     console.log(getStatus(jsonObject));
 });

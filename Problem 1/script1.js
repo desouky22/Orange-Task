@@ -5,12 +5,15 @@ const getSOFStatusList = (jsonObject) => {
 
     jsonObject.Response.RegSvcRs.GetCustRs.CustsSearchData.CustSearchDataRs.forEach(
         (custSearchDataRs) => {
+            // for each customer get the status of SOF and put it in a list
             const SOFStatuslist = [];
             custSearchDataRs.SourceOfFunds.SourceOfFund.forEach(
                 (sourceOfFund) => {
                     SOFStatuslist.push(sourceOfFund.SOFStatus);
                 }
             );
+
+            // add the list to the overall list that contains all the customers' lists
             AllCustomersSOFStatuslist.push(SOFStatuslist);
         }
     );
@@ -27,6 +30,5 @@ fs.readFile("./response1.json", "utf8", (err, data) => {
     // Parse the JSON data
     const jsonObject = JSON.parse(data);
 
-    // Now 'jsonObject' contains the parsed JSON data
     console.log(getSOFStatusList(jsonObject));
 });
