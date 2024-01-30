@@ -3,9 +3,13 @@ const fs = require("fs");
 const getSOFStatusList = (jsonObject) => {
     const SOFStatuslist = [];
 
-    jsonObject.Response.RegSvcRs.GetCustRs.CustsSearchData.CustSearchDataRs[0].SourceOfFunds.SourceOfFund.forEach(
-        (sourceOfFund) => {
-            SOFStatuslist.push(sourceOfFund.SOFStatus);
+    jsonObject.Response.RegSvcRs.GetCustRs.CustsSearchData.CustSearchDataRs.forEach(
+        (custSearchDataRs) => {
+            custSearchDataRs.SourceOfFunds.SourceOfFund.forEach(
+                (sourceOfFund) => {
+                    SOFStatuslist.push(sourceOfFund.SOFStatus);
+                }
+            );
         }
     );
 
