@@ -1,0 +1,10 @@
+{
+  "name": "orange-task",
+  "version": "1.0.0",
+  "description": "a basic project for solving orange's task",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omar Essam Desouky",
+  "license": "ISC"
+}

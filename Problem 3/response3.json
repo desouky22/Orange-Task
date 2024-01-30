@@ -1,0 +1,15 @@
+{
+    "OpenAmountResponse": {
+        "xmlns:ns2": "http://www.orange.com/model",
+        "response": {
+            "code": "200",
+            "response": "SUCCESS",
+            "message": "SUCCESS",
+            "status": "SUCCESS"
+        },
+        "Amount": "0.0",
+        "xmlns:ns3": "http://www.orange.com/openAmount",
+        "TotalAmount": "0.0",
+        "DueDate": "2023-08-23T09:46:59+03:00"
+    }
+}

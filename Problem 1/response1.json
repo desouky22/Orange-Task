@@ -1,0 +1,200 @@
+{
+    "Response": {
+        "SignonRs": {
+            "SignonProfile": {
+                "Sender": "Orange_CSP",
+                "Version": "V1.0",
+                "MsgCode": "GetCustRs",
+                "Receiver": "Orange_WLT"
+            },
+            "Language": "en-us",
+            "ServerDt": "2023-10-10T09:16:19.587"
+        },
+        "RegSvcRs": {
+            "Status": {
+                "StatusDesc": "Success.",
+                "Severity": "Info",
+                "StatusCode": 200
+            },
+            "MsgRqHdr": {
+                "CustomProperties": {
+                    "CustomProperty": [
+                        {
+                            "Value": "false",
+                            "Key": "IGNORE_MIN"
+                        },
+                        {
+                            "Value": "01222285799",
+                            "Key": "PosSerialNumber"
+                        }
+                    ]
+                }
+            },
+            "GetCustRs": {
+                "CustsSearchData": {
+                    "CustSearchDataRs": [
+                        {
+                            "BirthPlace": {
+                                "Country": "EGY",
+                                "City": "cairo"
+                            },
+                            "FawryCustNumber": "38609979-0-1",
+                            "NationalityCode": "EGY",
+                            "SourceOfFunds": {
+                                "SourceOfFund": [
+                                    {
+                                        "AllowedCashIn": 99975,
+                                        "DailyDrLimit": 30000,
+                                        "SOFAlias": "Fawry Arabic",
+                                        "StatusChangedBy": "ins43651",
+                                        "StatusReason": "ub",
+                                        "CreditLimit": 100000,
+                                        "Enabled": false,
+                                        "SOFCur": "EGP",
+                                        "MonthlyCreditLimit": 300000,
+                                        "SOFStatus": "Active",
+                                        "ForcePINChange": false,
+                                        "MonthlyDrLimit": 100000,
+                                        "SOFType": "SDA",
+                                        "SOFId": "01222285799",
+                                        "AvailableBalance": 2.5,
+                                        "LastModificationDate": 1696918539940,
+                                        "AcctStatusLastModifiDate": 1696322864721,
+                                        "Selected": true,
+                                        "RegisterationDate": 1678096122159,
+                                        "DailyCrLimit": 100000
+                                    },
+                                    {
+                                        "AllowedCashIn": 5000,
+                                        "DailyDrLimit": 1000,
+                                        "SOFAlias": "Fawry Arabic",
+                                        "CreditLimit": 5000,
+                                        "Enabled": false,
+                                        "SOFCur": "POINTS",
+                                        "MonthlyCreditLimit": 100000,
+                                        "SOFStatus": "Active",
+                                        "ForcePINChange": false,
+                                        "MonthlyDrLimit": 100000,
+                                        "SOFType": "LYA",
+                                        "SOFId": "125201222285799",
+                                        "AvailableBalance": 0,
+                                        "LastModificationDate": 1696918539945,
+                                        "AcctStatusLastModifiDate": 1690356694806,
+                                        "Selected": false,
+                                        "RegisterationDate": 1690356694585,
+                                        "DailyCrLimit": 3000,
+                                        "CustomProperties": {
+                                            "CustomProperty": [
+                                                {
+                                                    "Value": "01222285799",
+                                                    "Key": "PosSerialNumber"
+                                                },
+                                                {
+                                                    "Value": "False",
+                                                    "Key": "Encrypt_VCN_Data"
+                                                },
+                                                {
+                                                    "Value": "0.0",
+                                                    "Key": "AMT_BALANCE"
+                                                },
+                                                {
+                                                    "Value": "Default",
+                                                    "Key": "customerCategoryAr"
+                                                },
+                                                {
+                                                    "Value": "1.0",
+                                                    "Key": "minRedemptionPoints"
+                                                },
+                                                {
+                                                    "Value": "3769606",
+                                                    "Key": "LoyaltyCustId"
+                                                },
+                                                {
+                                                    "Value": "Default",
+                                                    "Key": "customerCategoryEn"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "Gender": "M",
+                            "CustExtraDetails": {
+                                "CustomProperty": [
+                                    {
+                                        "Value": "false",
+                                        "Key": "IGNORE_MIN"
+                                    },
+                                    {
+                                        "Value": "01222285799",
+                                        "Key": "PosSerialNumber"
+                                    }
+                                ]
+                            },
+                            "DashboardViewingType": "TABLE",
+                            "Name": "Ø§ØÙ…Ø¯",
+                            "MonthlySalary": 0,
+                            "AutoArchivePeriod": 0,
+                            "KYCLevel": "KYCID",
+                            "CotInfo": [
+                                {
+                                    "IsDefault": true,
+                                    "ContactType": "MOBILE",
+                                    "Alias": "MOBILE01222285799",
+                                    "ContactStatus": "ACTIVE",
+                                    "ContactValue": "01222285799"
+                                },
+                                {
+                                    "IsDefault": false,
+                                    "ContactType": "HADDRESS",
+                                    "Alias": "HADDRESS",
+                                    "ContactStatus": "ACTIVE",
+                                    "ContactValue": "Ù‚ 82 Ø§Ø¨ÙˆØ§Ù„Ù‡ÙˆÙ„ 3 -Ù…Ù†Ø·Ù‚Ø© Ø"
+                                }
+                            ],
+                            "RegisterationDate": "2023-07-10",
+                            "CustType": "INDIVIDUAL",
+                            "IsCCardEnabStatus": "ACTIVE",
+                            "MiddleName": "Ø²ÙƒÙ‰",
+                            "HasBankAcct": false,
+                            "CustCategory": "corporate customers",
+                            "PrimaryBranchCode": "BB290522",
+                            "IsSelfReg": false,
+                            "CustIds": {
+                                "CustId": [
+                                    {
+                                        "OfficialIdType": "CPID",
+                                        "OfficialId": "125201222285799"
+                                    },
+                                    {
+                                        "OfficialIdType": "NAT",
+                                        "OfficialId": "29503170100299"
+                                    },
+                                    {
+                                        "OfficialIdType": "CIF",
+                                        "OfficialId": "01222285799"
+                                    }
+                                ]
+                            },
+                            "HasCCardWhiteList": false,
+                            "NotifPreferredLang": "ar-eg",
+                            "LastName": "Ø¹Ø¨Ø¯Ø§Ù„ØÙ…ÙŠØ¯ Ù‡Ø§Ø´Ù…",
+                            "IsAutoArchive": false,
+                            "CustAddressess": [
+                                {
+                                    "IsDefault": false,
+                                    "Area": "Ø§Ù„ØªØ¬Ù…Ø¹ Ø§Ù„Ø®Ø§Ù…Ø³",
+                                    "Governorate": "Ø§Ù„Ù‚Ø§Ù‡Ø±Ù‡",
+                                    "Street": "Ù‚ 82 Ø§Ø¨ÙˆØ§Ù„ÙÙ‚Ø§Ù‡Ø±Ù‡",
+                                    "AddressType": "HADDRESS"
+                                }
+                            ],
+                            "BirthDate": "1995-03-17"
+                        }
+                    ]
+                }
+            },
+            "RqUID": "bbd41380-e451-44d5-8ae4-aebb3e0bc5b8"
+        }
+    }
+}

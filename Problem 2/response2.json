@@ -1,0 +1,17 @@
+{
+    "CustomerDetailsResponse": {
+        "CityCode": "02",
+        "Status": "Active",
+        "Landline": "23548328",
+        "ServiceNumber": "0223548328",
+        "CoId": "198795359",
+        "CustomerId": "198390498",
+        "CustomerType": "Postpaid",
+        "Name": "  AmrMobasher",
+        "ContactNumber": "1225554733",
+        "EDesc": "Success",
+        "xmlns:rpc": "http://siebel.com/asi/OEGGetADSLCustomerDetails",
+        "AccessType": "MSAN Access",
+        "ECode": "0"
+    }
+}
